@@ -1,0 +1,122 @@
+.barra {
+    background: #3ac13d;
+    clear: both;
+    height: 20px;
+    color: white;
+    font-weight: bold;
+    text-align: right;
+    padding: 8px;
+    border-radius: 4px;
+    max-width: 356px;
+    min-width: 20px;
+}
+
+body {
+    background: #53be55;
+    font-family: Arial, sans-serif; 
+
+}
+
+a {
+    text-decoration: none;
+    color: #35cc35;
+}
+
+a:hover {
+    color: #267827;
+}
+
+.wrap {
+    padding: 25px;
+    margin: 0 auto;
+    width: 500px;
+    background: #ffffff;
+    border-radius: 4px;
+    margin-top: 70px;
+    border: 1px solid #bdc3c7;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 29px;
+    border-bottom: 1px solid #bdc3c7;
+    padding-bottom: 15px;
+    text-align: center;
+    color: #000000; 
+}
+
+form > div {
+    margin-bottom: 20px;
+}
+
+form .titulo {
+    margin-right: 20px;
+}
+
+form label {
+    display: block;
+    color: #35cc35; 
+}
+
+form input[type='text'],
+select {
+    border: 2px solid #bdc3c7;
+    padding: 10px; 
+    resize: none;
+    color: #333; 
+}
+
+form input[type="submit"] {
+    padding: 15px 20px; 
+    background: #1a6a1a;
+    border: 0;
+    display: block;
+    font-weight: bold;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer; 
+}
+
+form input[type="submit"]:hover {
+    background: #35cc35; 
+}
+
+ul.votacion {
+    margin-bottom: 25px;
+    list-style: none;
+}
+
+.votacion li a {
+    padding: 8px;
+    background: #ecf0f1; 
+    border-radius: 5px;
+    margin-bottom: 5px;
+    color: #1b571b; 
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+}
+
+.votacion li a:hover {
+    background: #d5e6f0;
+    color: #26ad26;
+}
+
+.votacion li span {
+    margin-left: 10px;
+}
+
+.votacion .fl {
+    margin-bottom: 5px;
+}
+
+.volver {
+    display: block;
+    padding-top: 15px;
+    clear: both;
+    color: #35cc35;
+}
+
+.volver:hover {
+    color: #35cc35; 
+}
